@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name">برنامه مترجم</string>
+    <string name="setting">تنظیمات</string>
+    <string name="en_language">انگلیسی</string>
+    <string name="per_language">فارسی</string>
+    <string name="fr_language">فرانسوی</string>
+    <string name="ar_language">عربی</string>
+</resources>
+
+
+

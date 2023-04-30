@@ -1,3 +1,10 @@
 <resources>
-    <string name="app_name">HW18_2_Dictionary</string>
+    <string name="app_name">Dictionary App</string>
+    <string name="setting">Setting</string>
+    <string name="language" translatable="false">language</string>
+    <string name="en_language">English</string>
+    <string name="per_language">Persian</string>
+    <string name="fr_language">French</string>
+    <string name="ar_language">Arabic</string>
+
 </resources>
