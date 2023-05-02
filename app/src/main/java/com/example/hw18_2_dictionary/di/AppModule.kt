@@ -14,6 +14,7 @@ import javax.inject.Singleton
 @Module
 @InstallIn(SingletonComponent::class)
 object AppModule {
+
     @Provides
     @Singleton
     fun provideDictionaryDatabase(application: Application) : WordDatabase{
@@ -29,6 +30,6 @@ object AppModule {
     @Provides
     @Singleton
     fun provideRepository(iWordDao: IWordDao):Repository {
-        return Repository()
+        return Repository(iWordDao)
     }
 }

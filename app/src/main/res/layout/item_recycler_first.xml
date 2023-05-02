@@ -1,8 +1,145 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        app:cardBackgroundColor="#EFEFEF"
+        app:cardCornerRadius="15dp"
+        app:contentPadding="15dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="22dp">
+
+            <TextView
+                android:id="@+id/tvMainWord"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawablePadding="8dp"
+                android:gravity="center_vertical"
+                android:text="Hello"
+                android:textStyle="bold"
+                app:drawableStartCompat="@drawable/ic_language"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/btn_share"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/share"
+                android:textColor="#FF0000"
+                app:drawableStartCompat="@drawable/share"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
 
 
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="22dp"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tvMainWord">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+                <LinearLayout
+                    android:id="@+id/tv_england_group"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/en_language"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tvEngland"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="England" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/tv_persian_group"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/per_language"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tvPersian"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Persian" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/tv_france_group"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/fr_language"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tvFrance"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="France" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/tv_arabic_group"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/ar_language"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tvArabic"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Italy" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+</layout>

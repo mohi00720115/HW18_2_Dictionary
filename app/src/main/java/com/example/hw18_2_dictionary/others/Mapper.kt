@@ -1,7 +1,7 @@
 package com.example.hw18_2_dictionary.others
 
-import com.example.hw18_2_dictionary.WordData
-import com.example.hw18_2_dictionary.model.WordEntity
+import com.example.hw18_2_dictionary.model.ui.WordData
+import com.example.hw18_2_dictionary.model.Entity.WordEntity
 
 /**
  *این میاد بصورت یک لیست اطلاعات دیتابیسمونو می گیره و خروجیش رو تبدیل می کنه بصورت یک لیست از دیتاکلاس جدیدمون

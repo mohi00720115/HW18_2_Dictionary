@@ -1,4 +1,4 @@
-package com.example.hw18_2_dictionary.model
+package com.example.hw18_2_dictionary.model.Entity
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity

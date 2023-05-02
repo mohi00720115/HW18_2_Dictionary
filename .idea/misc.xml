@@ -3,9 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/user/AndroidStudioProjects/HW18_2_Dictionary/app/src/main/res/drawable-v24/baseline_add_24.xml" value="0.146" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/HW18_2_Dictionary/app/src/main/res/drawable-v24/ic_language.xml" value="0.146" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/HW18_2_Dictionary/app/src/main/res/drawable-v24/icon_search.xml" value="0.146" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/HW18_2_Dictionary/app/src/main/res/drawable/change.xml" value="0.146" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/HW18_2_Dictionary/app/src/main/res/drawable/search.xml" value="0.146" />
         <entry key="..\:/Users/user/AndroidStudioProjects/HW18_2_Dictionary/app/src/main/res/layout/activity_main.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/HW18_2_Dictionary/app/src/main/res/layout/dailog_add.xml" value="0.22777777777777777" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/HW18_2_Dictionary/app/src/main/res/layout/dialog_edit.xml" value="0.22777777777777777" />
         <entry key="..\:/Users/user/AndroidStudioProjects/HW18_2_Dictionary/app/src/main/res/layout/fragment_first.xml" value="0.23229166666666667" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/HW18_2_Dictionary/app/src/main/res/layout/item_recycler_first.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/HW18_2_Dictionary/app/src/main/res/layout/item_recycler_first.xml" value="0.22777777777777777" />
         <entry key="..\:/Users/user/AndroidStudioProjects/HW18_2_Dictionary/app/src/main/res/menu/menu.xml" value="0.23229166666666667" />
       </map>
     </option>

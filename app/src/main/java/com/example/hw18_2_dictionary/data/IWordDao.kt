@@ -1,7 +1,7 @@
 package com.example.hw18_2_dictionary.data
 
 import androidx.room.*
-import com.example.hw18_2_dictionary.model.WordEntity
+import com.example.hw18_2_dictionary.model.Entity.WordEntity
 import kotlinx.coroutines.flow.Flow
 
 @Dao
@@ -30,4 +30,8 @@ interface IWordDao {
 
     @Query("SELECT * FROM words_table WHERE id = :id")
     fun getWord(id : Int) : WordEntity
+
+//    @Query("SELECT COUNT(*) FROM words_table")
+//    fun countItem(): Flow<Int>
+
 }

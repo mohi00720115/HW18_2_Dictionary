@@ -7,6 +7,13 @@
     <string name="per_language">فارسی</string>
     <string name="fr_language">فرانسوی</string>
     <string name="ar_language">عربی</string>
+    <string name="create_word">ساخت کلمه</string>
+    <string name="cancel">کنسل کردن</string>
+    <string name="edit">ویرایش کردن</string>
+    <string name="delete">حذف مردن</string>
+    <string name="search">سرچ کردن</string>
+    <string name="add_word">اضافه کردن کلمه</string>
+    <string name="share">شیر کردن</string>
 </resources>
 
 
